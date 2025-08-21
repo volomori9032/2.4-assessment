@@ -1,0 +1,18 @@
+html {
+    width: 100%; 
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 890px;
+    width: 1920px;
+}
+
+.Title {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+}
+
