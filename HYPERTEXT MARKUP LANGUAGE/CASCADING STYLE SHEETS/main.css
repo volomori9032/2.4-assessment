@@ -76,16 +76,50 @@ body {
     grid-template-areas: 
     'Empty auto auto auto auto';
     gap: 10px;
-    border: 10px solid dodgerblue;
-    background-color: dodgerblue;
-    height: 300px;
+    height: 330px;
     width: 1000px;
     position: relative;
     left: 450px;
     top: 30px;
 }
 
-.Main-Body > div {
+.A {
+    border: 10px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.B {
+    border-top: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.C {
+    border-top: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.D {
+    border-top: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.E {
+    border-top: 10px solid dodgerblue;
+    border-right: 10px solid dodgerblue;    
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -93,3 +127,57 @@ body {
     text-align: center;
 }
 
+.F {
+    border-left: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.G {
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.H {
+    border-left: 10px solid dodgerblue;
+    border-bottom: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.I {
+    border-bottom: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.J {
+    border-right: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.K {
+    border-right: 10px solid dodgerblue;
+    border-bottom: 10px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
