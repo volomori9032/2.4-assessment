@@ -74,8 +74,7 @@ body {
 .Main-Body {
     display: grid;
     grid-template-areas: 
-    'Empty auto auto auto auto';
-    gap: 10px;
+    'auto auto auto auto auto';
     height: 330px;
     width: 1000px;
     position: relative;
@@ -83,70 +82,78 @@ body {
     top: 30px;
 }
 
-.A {
-    border: 10px solid rgb(255, 255, 255);
+.TLC {
+    border-right: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
     background-color: #ffffff;
     color: #ffffff;
+}
+
+.T {
+    border-top: 10px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000000;
     padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.TRC {
+    border-top: 10px solid dodgerblue;
+    border-right: 10px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;  
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.LS {
+    border-left: 10px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
+    border-top: 5px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.M {
+    border-top: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.BLC {
+    border-left: 10px solid dodgerblue;
+    border-bottom: 10px solid dodgerblue;
+    border-top: 5px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .B {
-    border-top: 10px solid dodgerblue;
-    background-color: #f1f1f1;
-    color: #000000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.C {
-    border-top: 10px solid dodgerblue;
-    background-color: #f1f1f1;
-    color: #000000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.D {
-    border-top: 10px solid dodgerblue;
-    background-color: #f1f1f1;
-    color: #000000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.E {
-    border-top: 10px solid dodgerblue;
-    border-right: 10px solid dodgerblue;    
-    background-color: #f1f1f1;
-    color: #000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.F {
-    border-left: 10px solid dodgerblue;
-    background-color: #f1f1f1;
-    color: #000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.G {
-    background-color: #f1f1f1;
-    color: #000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.H {
-    border-left: 10px solid dodgerblue;
     border-bottom: 10px solid dodgerblue;
+    border-right: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
+    border-top: 5px solid dodgerblue;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -154,17 +161,11 @@ body {
     text-align: center;
 }
 
-.I {
-    border-bottom: 10px solid dodgerblue;
-    background-color: #f1f1f1;
-    color: #000;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.J {
+.RS {
     border-right: 10px solid dodgerblue;
+    border-top: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -172,9 +173,11 @@ body {
     text-align: center;
 }
 
-.K {
+.BRC {
     border-right: 10px solid dodgerblue;
     border-bottom: 10px solid dodgerblue;
+    border-top: 5px solid dodgerblue;
+    border-left: 5px solid dodgerblue;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
