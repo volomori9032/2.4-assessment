@@ -19,10 +19,8 @@ body {
 }
 
 .Heading1 {
-    font-size: 50px;
+    font-size: 128px;
     font-family: "Crimson Pro";
-    position: relative;
-    bottom: 45px;
 }
 
 .Explain {
@@ -80,44 +78,61 @@ body {
     position: relative;
     left: 450px;
     top: 30px;
+    text-transform: uppercase;
 }
 
 .TLC {
-    border-right: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
     background-color: #ffffff;
     color: #ffffff;
 }
 
 .T {
-    border-top: 10px solid dodgerblue;
-    border-right: 5px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;
+    border-top: 10px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
     background-color: #f1f1f1;
     color: #000000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
+    width: 228px;
+    height: 45px;
+}
+
+.Tt {
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
 }
 
 .TRC {
-    border-top: 10px solid dodgerblue;
-    border-right: 10px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;  
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;  
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
     font-size: 30px;
     text-align: center;
+    width: 228px;
+    height: 45px;
+}
+
+.TRCc {
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
 }
 
 .LS {
-    border-left: 10px solid dodgerblue;
-    border-right: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;
-    border-top: 5px solid dodgerblue;
+    border-left: 10px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -126,10 +141,10 @@ body {
 }
 
 .M {
-    border-top: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;
-    border-right: 5px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -138,10 +153,10 @@ body {
 }
 
 .BLC {
-    border-left: 10px solid dodgerblue;
-    border-bottom: 10px solid dodgerblue;
-    border-top: 5px solid dodgerblue;
-    border-right: 5px solid dodgerblue;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -150,10 +165,10 @@ body {
 }
 
 .B {
-    border-bottom: 10px solid dodgerblue;
-    border-right: 5px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
-    border-top: 5px solid dodgerblue;
+    border-bottom: 10px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -162,10 +177,10 @@ body {
 }
 
 .RS {
-    border-right: 10px solid dodgerblue;
-    border-top: 5px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
-    border-bottom: 5px solid dodgerblue;
+    border-right: 10px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
@@ -174,10 +189,10 @@ body {
 }
 
 .BRC {
-    border-right: 10px solid dodgerblue;
-    border-bottom: 10px solid dodgerblue;
-    border-top: 5px solid dodgerblue;
-    border-left: 5px solid dodgerblue;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
     background-color: #f1f1f1;
     color: #000;
     padding: 10px;
